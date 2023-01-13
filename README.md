@@ -139,3 +139,11 @@ data.contents.foo = 'baz';
 # Object-oriented programming
 
 Object Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects. 
+
+#### Benefits of Object Oriented Programming
+
++ Easier debuging
++ Reuse of code through inheritance
++ Flexibility through polymorphism
++ Effective problem solving
++ Project decoupling (Separate project into groups)
