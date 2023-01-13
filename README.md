@@ -147,3 +147,13 @@ Object Oriented programming (OOP) is a programming paradigm that relies on the c
 + Flexibility through polymorphism
 + Effective problem solving
 + Project decoupling (Separate project into groups)
+
+### Encapsulation - Class objects are in a specific boundary. For example citizens in a country. They are all living within a specific boundary can governed by its laws.
+
+### Abstraction - Class objects can only share public properties and hide private properties. This creates a great way of controlling its behaviour.
+
+### Inheritance - We can inherit other classes and extend all there public properties.
+
+### Polymorphism - Objects can take various behaviour depending on the context.
+
+Instead of using classes we can also use functions. Take the person class object we have been using through the example we can define it as follows:
