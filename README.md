@@ -140,6 +140,8 @@ data.contents.foo = 'baz';
 
 Object Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects. 
 
+Note: JavaScript is not an object-oriented language. Neither is it completely a functional language. JavaScript is a prototype-based procedural language. It supports both functional and object-oriented patterns of programming.
+
 #### Benefits of Object Oriented Programming
 
 + Easier debuging
@@ -148,7 +150,7 @@ Object Oriented programming (OOP) is a programming paradigm that relies on the c
 + Effective problem solving
 + Project decoupling (Separate project into groups)
 
-### Encapsulation - Class objects are in a specific boundary. For example citizens in a country. They are all living within a specific boundary can governed by its laws.
+### Encapsulation - Encapsulation puts the data variables and the data functions together inside a box. Encapsulation ensures that data can only be accessed using the data functions defined inside the class, and abstraction ensures not anyone outside this encapsulated box can access it.
 
 ### Abstraction - Class objects can only share public properties and hide private properties. This creates a great way of controlling its behaviour.
 
@@ -156,4 +158,7 @@ Object Oriented programming (OOP) is a programming paradigm that relies on the c
 
 ### Polymorphism - Objects can take various behaviour depending on the context.
 
-Instead of using classes we can also use functions. Take the person class object we have been using through the example we can define it as follows:
++ Overloading (ad-hoc polymorphism)
++ Structural Subtyping (Structural Polymorphism)
+
+Instead of using classes we can also use functions.
