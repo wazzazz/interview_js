@@ -166,7 +166,7 @@ Instead of using classes we can also use functions.
 <details>
   <summary>Code example</summary>
       
-```javascript
+```typescript
 
  interface DbCommon {
   getDetails: () => DbDetails[];
