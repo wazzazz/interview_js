@@ -162,3 +162,80 @@ Note: JavaScript is not an object-oriented language. Neither is it completely a 
 + Structural Subtyping (Structural Polymorphism)
 
 Instead of using classes we can also use functions.
+
+<details>
+  <summary>Code example</summary>
+      
+```javascript
+
+ interface DbCommon {
+  getDetails: () => DbDetails[];
+}
+
+interface DbDetails {
+  name: string;
+  age: number;
+}
+
+class MongoDb implements DbCommon {
+  // Structural Polymorphism
+  getDetails = (): DbDetails[] => {
+    return [
+      {
+        name: "MongoDb",
+        age: 5
+      }
+    ];
+  };
+
+  // Polymorphism Overloading
+
+  // getDetails = (num: number): DbDetails[]  => {
+  //   return [{
+  //     name: "MongoDb",
+  //     age: 5 + num
+  //   }];
+  // };
+}
+
+class Postgres implements DbCommon {
+  // Structural Polymorphism
+  getDetails = (): DbDetails[] => {
+    return [
+      {
+        name: "Postgres",
+        age: 15
+      }
+    ];
+  };
+}
+
+class Database {
+  db1: DbCommon;
+  db2: Postgres;
+
+  // Aggregation
+  constructor(db: DbCommon) {
+    this.db1 = db;
+    // Composition
+    this.db2 = new Postgres();
+  }
+
+  getUsersAggregation() {
+    return this.db1.getDetails();
+  }
+
+  getUsersComposition() {
+    return this.db2.getDetails();
+  }
+}
+
+// Depedency injection MongoDb
+const db = new Database(new MongoDb());
+console.log(db.getUsersAggregation());
+console.log(db.getUsersComposition());
+
+```
+</details>
+
+
