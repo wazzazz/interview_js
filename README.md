@@ -168,7 +168,7 @@ Instead of using classes we can also use functions.
       
 ```typescript
 
- interface DbCommon {
+interface DbCommon {
   getDetails: () => DbDetails[];
 }
 
