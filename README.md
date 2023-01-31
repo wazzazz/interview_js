@@ -1,3 +1,55 @@
+# SOLID
+
+### Single responsibility
+#### A class should do one thing and therefore it should have only a single reason to change
+
+<details>
+  <summary>Code example</summary>
+      
+```javascript
+```
+</details>
+
+### Open-closed principle
+#### Classes should be open for extension and closed to modification.
+
+<details>
+  <summary>Code example</summary>
+      
+```javascript
+```
+</details>
+
+### Liskov substitution
+#### Subclasses should be substitutable for their base classes.
+
+<details>
+  <summary>Code example</summary>
+      
+```javascript
+```
+</details>
+
+### Interface segregatinon
+#### Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces
+
+<details>
+  <summary>Code example</summary>
+      
+```javascript
+```
+</details>
+
+### Dependency inversion
+#### Our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
+
+<details>
+  <summary>Code example</summary>
+      
+```javascript
+```
+</details>
+
 # Webpack, Gulp, CommonJs vs ES Modules
 
 A module system allows us to split up our code in different parts or to include code written by other developers.
