@@ -101,8 +101,6 @@ const crossbow = new Crossbow(40, 100);
 character.changeWeapon(crossbow);
 character.attack()
  
-      
-```typescript
 ```
 </details>
 
