@@ -108,6 +108,8 @@ character.attack()
 ### Liskov substitution
 #### Subclasses should be substitutable for their base classes.
 
+Inheritable class must add and not replace class
+
 <details>
   <summary>Code example</summary>
       
