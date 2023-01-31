@@ -40,6 +40,7 @@ Need to write code which doesn't impact on others parts of existing code. e.g. R
 
 <details>
   <summary>Code example</summary>
+  
  ```typescript
 
 interface Attacker {
