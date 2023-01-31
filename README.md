@@ -164,10 +164,22 @@ startApp(new MySQLDatabase())
 ### Interface segregatinon
 #### Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces
 
+Similar to LSP. Interface mustn't have method thad he couldn't realise
+
 <details>
   <summary>Code example</summary>
       
-```javascript
+```typescript
+  
+interface HttpRequest {
+  get: () => void;
+  post: () => void;
+  put: () => void;
+  delete: () => void;
+  
+  addToken: () => void; // need to move to another interface, because not of clients need it.
+}
+  
 ```
 </details>
 
