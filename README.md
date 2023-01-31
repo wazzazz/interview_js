@@ -36,12 +36,12 @@ class RequisitesService {
 
 ### Open-closed principle
 #### Classes should be open for extension and closed to modification.
+Need to write code which doesn't impact on others parts of existing code. e.g. Reduce cohesion and if clauses.
 
 <details>
   <summary>Code example</summary>
- 
-  // open–closed principle
-// Принцип открытости/закрытости
+ ```typescript
+
 interface Attacker {
   attack: () => void;
 }
