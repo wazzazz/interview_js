@@ -402,6 +402,54 @@ Note: JavaScript is not an object-oriented language. Neither is it completely a 
 
 ### Inheritance - We can inherit other classes and extend all there public properties.
 
+<details>
+  <summary>Code example</summary>
+      
+```javascript
+
+// "class" declaration
+function Car(make, model) {
+  this.make = make;
+  this.model = model;
+
+  function start() {
+    console.log('vroom');
+  }
+
+  function toString() {
+    console.log('Car - ' + this.make + ' - ' + this.model);
+  }
+
+  return { make, model, start, toString }
+}
+
+// inheritance example
+function SportsCar(make, model, turbocharged) {
+  Car.call(this, make, model);
+  this.turbocharged = turbocharged;
+}
+
+// actual inheritance logic
+SportsCar.prototype = Object.create(Car.prototype);
+SportsCar.prototype.constructor = SportsCar;
+
+// overriding the start method
+SportsCar.prototype.start = function() {
+  console.log('VROOOOM');
+}
+
+// Now testing the classes
+var car = new Car('Nissan', 'Sunny');
+car.start(); // vroom
+console.log(car.make); // Nissan
+
+var sportsCar = new SportsCar('Subaru', 'BRZ', true);
+sportsCar.start(); // VROOOOM
+console.log(car.turbocharged); // true
+
+```
+</details>
+
 ### Polymorphism - Objects can take various behaviour depending on the context.
 
 + Overloading (ad-hoc polymorphism)
