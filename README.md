@@ -1,3 +1,7 @@
+# Private vs #
+
+Without typescript we can use # (this.#counter++) in order to prevent access outside the class (through instance)
+
 # SOLID
 
 ### Single responsibility
