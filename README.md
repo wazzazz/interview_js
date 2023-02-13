@@ -1,3 +1,13 @@
+# Event Loop, Hoisting, Scope, JS Engine, Prototypal Ingeritance, Generators and Iterators, Promises (microtasks + macrostasks)
+
+### Event Loop https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
+### Hoisting https://dev.to/lydiahallie/javascript-visualized-hoisting-478h
+### Scope https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd
+### JS Engine https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf
+### Prototypal Ingeritance https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co
+### Generators and Iterators https://dev.to/lydiahallie/javascript-visualized-generators-and-iterators-e36
+### Promises (microtasks + macrostasks) https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke
+
 # Private vs '#'
 
 Without typescript we can use # (this.#counter++) in order to prevent access outside the class (through instance)
