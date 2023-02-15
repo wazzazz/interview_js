@@ -1,3 +1,14 @@
+# Nginx (EngineEx)
+
++ Proxy the traffic
++ Scales quickly
++ Light weight/Speed
++ Host Web Sites
++ Use it as a proxy server
++ COnfiguring several virtual hosts.
+
+Is an open-source web server that, since its initial success as a web server, is now also used as a reverse proxy, HTTP cache, and load balancer.
+
 # Event Loop, Hoisting, Scope, JS Engine, Prototypal Ingeritance, Generators and Iterators, Promises (microtasks + macrostasks)
 
 ### Event Loop https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
