@@ -1,8 +1,8 @@
 # CRA vs Vite vs Astro/Gatsby/Next.js
 
-Vite is much more faster then CRA in developer and production mode. Ready out of the box for bunch of features (typescript, postcss). Cons: not for SSR
-Astro/Gatsby great for SSG (Static Site Generator or prerender. Blog or etc.). Astro can work not only with React and maybr more easier.
-Next.js great for SSR in React and for huge projects.
++ Vite is much more faster then CRA in developer and production mode. Ready out of the box for bunch of features (typescript, postcss). Cons: not for SSR
++ Astro/Gatsby great for SSG (Static Site Generator or prerender. Blog or etc.). Astro can work not only with React and maybr more easier.
++ Next.js great for SSR in React and for huge projects.
 
 
 # Service worker/ PWA
