@@ -1,6 +1,6 @@
 # Service worker/ PWA
 
-### Service worker is a heart of PWA. As a standalone worker can intersect all requests, used for cache assets to work better with low internet. Works in parallels and use only HTTPS
+### Service worker is a heart of PWA. As a standalone worker can intersect all requests, used for cache assets to work better with low internet. Works in parallels and use only HTTPS. Also similar to middleware
 
 
 # Nginx (EngineEx)
