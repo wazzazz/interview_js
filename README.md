@@ -1,3 +1,31 @@
+# Patterns
+### Singleton
+
+<details>
+  <summary>Code example</summary>
+      
+```javascript
+  
+class Singleton {
+  constructor(name) {
+    this.name = name;
+
+    if(Singleton._instance instanceof Singleton) {
+      return Singleton._instance;
+    }
+    
+    Object.freeze(this);
+    Singleton._instance = this;
+  }
+
+  getName() {
+    return this.name;
+  }
+}
+ 
+```
+</details>
+
 # CRA vs Vite vs Astro/Gatsby/Next.js vs Remix
 
 + Vite is much more faster then CRA in developer and production mode. Ready out of the box for bunch of features (typescript, postcss). Cons: not for SSR
