@@ -1,3 +1,9 @@
+# CORS
+
+### Cross Origin Resource Sharing
+
+### Simple Request (Get, Post) vs Preflight (Put, Patch, Delete) - fast empty request/responce for checking allowance of communication
+
 # Patterns
 ### Singleton
 
