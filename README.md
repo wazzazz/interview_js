@@ -1,5 +1,7 @@
 # CORS
 
+https://dev.to/lydiahallie/cs-visualized-cors-5b8h
+
 ### Cross Origin Resource Sharing - Server set headers Allow-Origin to Origin from UI
 
 ### Simple Request (Get, Post) vs Preflight (Put, Patch, Delete) - fast empty request/responce for checking allowance of communication
