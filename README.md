@@ -1,3 +1,7 @@
+# Async/Defer
+
+### If async is present: The script is downloaded in parallel to parsing the page, and executed as soon as it is available (before parsing completes) If defer is present (and not async ): The script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. + keep order even next script already loaded in parallel.
+
 # CORS
 
 https://dev.to/lydiahallie/cs-visualized-cors-5b8h
